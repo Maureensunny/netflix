@@ -500,6 +500,7 @@ body {
         height: 3rem;
         width: 25rem;
         font-size: 1.2rem;
+        color: #fff;
     }
 
     .row button {
@@ -699,6 +700,7 @@ body {
         border: 1px solid #ffffff69;
         background-color: #ffffff15;
         border-radius: 5px;
+        color:#fff;
         font-size: 1rem;
         padding: 0rem 2rem 0rem 3rem;
     }
