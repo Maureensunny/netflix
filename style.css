@@ -655,7 +655,7 @@ body {
         border-radius: 1px;
         background-color: #383535;
         height: 4rem;
-        width: 30rem;
+        width: 25rem;
         align-items: center;
     }
     
@@ -697,7 +697,7 @@ body {
     
     .sect6-div input {
         height: 3rem;
-        width: 25rem;
+        width: 20rem;
         border: 1px solid #ffffff69;
         background-color: #ffffff15;
         border-radius: 5px;
