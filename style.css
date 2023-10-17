@@ -441,7 +441,9 @@ body {
 
 @media screen and (max-width: 560px) {
     
-    
+    .sect1-cont {
+        height: 500px;
+    }
     
 
     .header {
@@ -451,18 +453,18 @@ body {
         height: 6rem;
         width: 100%;
         justify-content: space-between;
-        padding: 0rem 1rem;                                                                                                                                                             
+        padding: 1rem 1rem;                                                                                                                                                             
     }
 
     .header img {
-        width: 5rem;
-        height: 5rem;
+        width: 6rem;
+        height: 6rem;
     }
 
     .header button {
-        width: 4rem;
-        height: 1.5rem;
-        font-size: 0.8rem;
+        width: 5rem;
+        height: 1.7rem;
+        font-size: 0.9rem;
     }
     
     .col {
@@ -495,24 +497,24 @@ body {
     }
     
     .row input {
-        height: 2.5rem;
-        width: 17rem;
-        font-size: 1rem;
+        height: 3rem;
+        width: 25rem;
+        font-size: 1.2rem;
     }
 
     .row button {
         height: 2.5rem;
-        width: 8rem;
-        font-size: 1rem;
+        width: 9rem;
+        font-size: 1.2rem;
         letter-spacing: 0.02cm;
     }
     
     .sect2 {
         width: 100%;
-        height: 450px;
+        height: 600px;
         display: flex;
         flex-direction: column;
-        padding: 1rem 1.5rem 8rem 1.5rem;
+        padding: 2rem 1.5rem 2rem 1.5rem;
         margin-top: 0.3rem;
         margin-bottom: 0.3rem;
     }
@@ -525,7 +527,7 @@ body {
     }
     
     .sect2-text h1 {
-        font-size: 2rem;
+        font-size: 30px;
         font-weight: 700;
         letter-spacing: 0.02cm;
     }
@@ -538,85 +540,82 @@ body {
     }
     
     .sect2 img {
-        width: 20rem;
-        height: 17rem;
+        width: 500px;
+        height: 400px;
     }
 
     .sect3 {
         display: flex;
         flex-direction: column-reverse;
         width: 100%;
-        height: 450px;
+        height: 550px;
         padding: 2rem 1.5rem 2rem 1.5rem;
         margin-bottom: 0.3rem;
         text-align: center;
     }
     
     .sect3-text h1 {
-        font-size: 2rem;
-        font-weight: 600;
+        font-size: 30px;
+        font-weight: 800;
         letter-spacing: 0.02cm;
     }
     
     .sect3-text p {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         font-weight: 500;
         letter-spacing: 0.02cm;
+        text-align: center;
     }
     
     .sect3 img {
-        width: 20rem;
-        height: 15rem;
+        width: 350px;
+        height: 400px;
     }
 
     .sect4 {
-        height: 350px;
+        height: 300px;
         width: 100%;
-        flex-direction: column;
         align-items: center;
-        justify-content: space-between;
-        background-color: #000;
         padding: 2rem 1.5rem 2rem 1.5rem;
         margin-bottom: 0.3rem;
         text-align: center;
     }
     
     .sect4 h1 {
-        font-size: 1.1rem;
-        font-weight: 700;
+        font-size: 2rem;
+        font-weight: 800;
     }
     
     .sect4 p {
-        font-size: 0.5rem;
+        font-size: 1rem;
         font-weight: 500;
-        padding-bottom: 5rem;
     }
     
     .sect5 {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
+        justify-content: center;
         width: 100%;
-        height: 350px;
-        padding: 4rem 2rem 0rem 2rem;
+        height: 550px;
+        padding: 3rem 1.5rem 2rem 1.5rem;
         margin-bottom: 0.3rem;
     }
     
     .sect5 img {
-        width: 12rem;
-        height: 8rem;
+        width: 450px;
+        height: 400px;
     } 
     
     .sect5-text h1 {
-        font-size: 1rem;
-        font-weight: 600;
+        font-size: 2rem;
+        font-weight: 800;
         letter-spacing: 0.02cm;
-        padding-bottom: rem;
-        margin-top: rem;
+        padding-left: 2rem;
     }
     
     .sect5-text p {
-        font-size: 0.5rem; 
+        font-size: 15px; 
         text-align: center;
     }
 
@@ -626,17 +625,16 @@ body {
         align-items: center;
         justify-content: space-between;
         width: 100%;
-        height: 400rem;
-        padding: 3rem 2rem 0rem 2rem;
+        height: 120vh;
+        padding: 3rem 1.5rem 0rem 1.5rem;
         gap: 2rem;
-        margin-bottom: 0.7rem;
+        margin-bottom: 0.3rem;
     }
     
     .sect6 h1 {
-        font-size: 1rem;
+        font-size: 2rem;
         font-weight: 600;
         letter-spacing: 0.02cm;
-        text-align: center;
     }
     
     .sect6-col {
@@ -644,7 +642,7 @@ body {
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        gap: 0.2rem;
+        gap: 0.5rem;
     }
 
     .icon {
@@ -654,28 +652,29 @@ body {
         border: 1px solid #000;
         border-radius: 1px;
         background-color: #383535;
-        height: 2rem;
-        width: 13rem;
+        height: 4rem;
+        width: 30rem;
         align-items: center;
     }
     
     .icon p {
-        font-size: 0.5rem;
+        font-size: 1rem;
         font-family: 500;
         letter-spacing: 0.02cm;
         padding-left: 1rem;
     }
     
     .icon i {
-        font-size: 0.7rem;
+        font-size: 1rem;
         font-weight: 100;
         padding-right: 0.7rem;
     }
 
     .sect6-info h4 {
-        font-size: 0.5rem;
-        font-family: 600;
+        font-size: 1rem;
+        font-family: 500;
         letter-spacing: 0.0cm;
+        text-align: center;
     }
     
     .sect6-info {
@@ -683,6 +682,7 @@ body {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        gap: 2rem;
     }
     
     .sect6-div {
@@ -690,30 +690,45 @@ body {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-
         padding-bottom: 3rem;
     }
     
     .sect6-div input {
-        height: 2rem;
-        width: 7rem;
+        height: 3rem;
+        width: 25rem;
         border: 1px solid #ffffff69;
         background-color: #ffffff15;
         border-radius: 5px;
-        padding-left: 1rem;
+        font-size: 1rem;
         padding: 0rem 2rem 0rem 3rem;
     }
     
-    .sect6-info button {
-        height: 2rem;
-        width: 6rem;
+    .sect6-div button {
+        height: 3rem;
+        width: 8rem;
         border: 1px solid red;
         border-radius: 5px;
         background-color: #f01111;
         color: #fff;
-        font-size: 14px;
+        font-size: 1.2rem;
         font-weight: 500;
     }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        height: 400vh;
+        padding: 2rem 0rem;
+        margin-top: 0.3rem;
+    }
+
+    .footer-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: ;
+        
+    }
+
     
 }
 
