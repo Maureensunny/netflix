@@ -366,16 +366,22 @@ body {
     font-weight: 500;
 }
 
-.footer {
-    width: 100%;
-    height: 500px;
+ 
+footer {
     display: flex;
     flex-direction: column;
-    background-color: #000;
     align-items: flex-start;
-    justify-content: center;
     gap: 1rem;
-    padding-top: 5rem;
+    background-color: #000;
+    margin-top: 0.7rem;
+    padding: 5rem 0 1rem 0;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    padding-left: 9.5rem;
+    gap: 1rem;
 }
 
 .footer-a {
@@ -385,54 +391,41 @@ body {
     padding-bottom: 1rem;
 }
 
-.footer-wrap {
+.one {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding-left: 10rem;
-    padding-right: 5rem;
-    gap: 10rem;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
 }
 
-.footer-wrap div {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 1rem;
+.one li {
+    margin: 10px;
+    flex-basis: calc(25% - 20px);
+    font-size: 0.9rem;
 }
 
-.footer-wrap div a {
-    font-size: 1rem;
-    letter-spacing: 0.02cm;
-    font-weight: 500;
+.one a {
     color: #fff;
 }
-
-
-.btn{
-    border-radius: 5px;
-    border: 1px solid #fff;
-    height: 2rem;
-    width: 7rem;
-    font-size: 16px;
-    color: #fff;
-    background-color: #00000062;
-}
-
 
 .btn-div {
-    padding-left: 10rem;
-    padding-top: 1.5rem;
+    padding-left: 10px;
 }
 
-.footer h3 {
+.btn {
+    border-radius: 5px;
+    border: 1px solid rgb(34, 33, 33);
+    height: 2rem;
+    width: 7rem;
+    font-size: 14px;
     color: #fff;
+    background-color: #1817172a;
+}
+
+footer p {
     font-size: 1rem;
-    font-weight: 300;
-    letter-spacing: 0.02cm;
-    padding-left: 10rem;
+    color: #fff;
+    padding-left: 0.6rem;
 }
 
 #fa {
@@ -717,21 +710,20 @@ body {
         font-weight: 500;
     }
 
-    .footer {
-        display: flex;
-        flex-direction: column;
-        height: 400vh;
-        padding: 2rem 0rem;
-        margin-top: 0.3rem;
+    
+    footer {
+        padding: 3rem 1.5rem;
     }
 
-    .footer-wrap {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: ;
-        
+    .one li {
+        margin: 10px;
+        flex-basis: calc(50% - 20px);
+        font-size: 0.7rem;
     }
 
+    .footer-a {
+        font-size: 1rem;
+    }
     
 }
 
