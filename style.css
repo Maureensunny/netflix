@@ -543,7 +543,7 @@ footer p {
         display: flex;
         flex-direction: column-reverse;
         width: 100%;
-        height: 550px;
+        height: 560px;
         padding: 2rem 1.5rem 2rem 1.5rem;
         margin-bottom: 0.3rem;
         text-align: center;
@@ -592,14 +592,14 @@ footer p {
         align-items: center;
         justify-content: center;
         width: 100%;
-        height: 550px;
+        height: 570px;
         padding: 3rem 1.5rem 2rem 1.5rem;
         margin-bottom: 0.3rem;
     }
     
     .sect5 img {
-        width: 400px;
-        height: 400px;
+        width: 380px;
+        height: 380px;
     } 
     
     .sect5-text h1 {
@@ -607,6 +607,7 @@ footer p {
         font-weight: 800;
         letter-spacing: 0.02cm;
         padding-left: 2rem;
+        text-align: center;
     }
     
     .sect5-text p {
@@ -630,6 +631,7 @@ footer p {
         font-size: 2rem;
         font-weight: 600;
         letter-spacing: 0.02cm;
+        text-align: center;
     }
     
     .sect6-col {
@@ -712,7 +714,10 @@ footer p {
 
     
     footer {
-        padding: 3rem 1.5rem;
+        padding: 3rem 4rem;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
     }
 
     .one li {
@@ -722,7 +727,18 @@ footer p {
     }
 
     .footer-a {
+        color: #fff;
         font-size: 1rem;
+        padding-left: 0rem; 
+        padding-bottom: 1rem;
+    }
+
+    footer div {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-left: 0;
+        gap: rem;
     }
     
 }
