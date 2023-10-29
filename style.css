@@ -301,8 +301,12 @@ body {
     border-radius: 1px;
     background-color: #383535;
     height: 5rem;
-    width: 60rem;
+    width: 80rem;
     align-items: center;
+}
+
+.icon:hover {
+    background-color: #474242;
 }
 
 .icon p {
