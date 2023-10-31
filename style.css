@@ -560,10 +560,11 @@ footer p {
     }
     
     .sect3-text p {
-        font-size: 1.2rem;
+        font-size: 0.9rem;
         font-weight: 500;
         letter-spacing: 0.02cm;
         text-align: center;
+        padding-left: 1.5rem;
     }
     
     .sect3 img {
