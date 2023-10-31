@@ -230,7 +230,7 @@ body {
     justify-content: space-between;
     gap: 3rem;
     width: 100%;
-    height: 500px;
+    height: 550px;
     background-color: #000;
     color: #fff;
     padding: 2rem 8rem;
@@ -239,7 +239,7 @@ body {
 
 .sect5 img {
     width: 30rem;
-    height: 23rem;
+    height: 25rem;
 }
 
 .sect5-text {
@@ -270,7 +270,7 @@ body {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    height: 63rem;
+    height: 100vh;
     background-color: #000;
     color: #fff;
     padding-top: 6rem;
@@ -625,7 +625,7 @@ footer p {
         align-items: center;
         justify-content: space-between;
         width: 100%;
-        height: 80vh;
+        height: 85vh;
         padding: 3rem 1.5rem 0rem 1.5rem;
         gap: 2rem;
         margin-bottom: 0.5rem;
